@@ -81,6 +81,7 @@ def Main_Game():
             dead = True
 
         elif answer1.lower() == "right":
+            print("")
             type("You head right and move up some stairs")
             time.sleep(2)
             type("You squeeze through the crowd and make your way to your friend")
@@ -124,7 +125,7 @@ def Main_Game():
         time.sleep(2)
         type("Now you need to select the correct program...")
         time.sleep(2)
-        type("You couldn't remember which one was wokring properly...")
+        type("You couldn't remember which one was working properly...")
         time.sleep(2)
         type("You could choose the uncompiled Beta which will have all the features but will most likely be slower...")
         time.sleep(2)
@@ -160,6 +161,7 @@ def Main_Game():
 
         current_room.get_details()
 
+        print("")
         time.sleep(4)
         type("Why on earth do they want this memory?")
         time.sleep(2)
@@ -186,6 +188,7 @@ def Main_Game():
         type("Do you hide or run??")
         time.sleep(2)
         type("Type Hide or Run depending on what you want to do...")
+        print("")
         answer3 = input("")
         if answer3.lower() == "hide":
             type("")
@@ -199,6 +202,7 @@ def Main_Game():
             dead = True
 
         elif answer3.lower() == "run":
+            print("")
             type("You open the door and run...")
             time.sleep(2)
             type("You hear gunfire behind you...")

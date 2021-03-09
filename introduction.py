@@ -5,6 +5,11 @@ import time
 import sys
 from typing import type, type2
 
+def clear():
+    if name =='nt':
+        _ = system('cls')
+
+
 def Intro():                            #Defines all indented code as Intro
     print("")
     type("You feel youself being dragged along the floor")
@@ -35,7 +40,7 @@ def Intro():                            #Defines all indented code as Intro
     time.sleep(2)
     type("'Welcome to the Artemis "+name+". A science research station orbiting Jupiter.'")
     time.sleep(2)
-    type("You manage to make out the slim figure of the dark haired woman and smile. You look around at the massive room and see two guards holding rifles on either side of you")
+    type("You manage to make out the slim figure of the dark haired woman. She looked familiar but you couldn't think properly to work it out. You look around at the massive room and see two guards holding rifles on either side of you")
     time.sleep(2)
     type("'I have spent enough time in space. I'd quite like to go home thank you.' you say")
     time.sleep(2)
@@ -104,3 +109,5 @@ def Intro():                            #Defines all indented code as Intro
     type("You close you eyes and prepare for the worst. You hear screams, shouting, crying, laughing as you are flooded with memories")
     time.sleep(2)
     type("'Please stop!' you shout. But it didn't stop. Until...")
+    time.sleep(3)
+    clear()

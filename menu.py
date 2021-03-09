@@ -4,6 +4,9 @@ import time
 from main_game import Main_Game
 from os import system, name
 from typing import type
+import os
+os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = "hide"
+from pygame import mixer
 
 def clear():
     if name =='nt':
@@ -15,11 +18,14 @@ type("Please remember this is still in Beta and may never have a full 1.0 releas
 time.sleep(2)
 type("If you spot any bugs other than those mentioned in the Release Notes, please let me know")
 time.sleep(2)
-type("All releases and the Source Code can be found on GitHub using the link:")
+type("All releases and the Source Code can be found on GitHub using the link: https://github.com/Spud-Lord/The-Formula-Front-Wars---The-Text-Adventure")
 time.sleep(2)
 type("Read the book as it is released at https://www.wattpad.com/story/245646734-the-formula-front-war-part-of-the-world-space")
 time.sleep(2)
 type("The Text Adventure will start in 10 seconds...")
-time.sleep(10)
+mixer.init()
+mixer.music.load("10SecondCountdown.mp3")                                    #Plays mp3 file
+mixer.music.play(1)
+time.sleep(10.5)
 clear()
 Main_Game()
