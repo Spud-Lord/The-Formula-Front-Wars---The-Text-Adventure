@@ -11,7 +11,7 @@ from typing import type, type2
 def Death():                                        #Defines all indented code as Death
     mixer.init()
     mixer.music.load("imperial_alert.mp3")          #Loads and plays the mp3 file
-    mixer.music.play(5)
+    mixer.music.play(3)
 
     type("'Critical Failure!' you hear a voice shout")
     time.sleep(2)
