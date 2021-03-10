@@ -71,6 +71,7 @@ def Main_Game():
         time.sleep(2)
         answer1 = input("")
         if answer1.lower() == "left":
+            print("")
             type("The memory corrupts...")
             time.sleep(2)
             type("You can't see anything")
