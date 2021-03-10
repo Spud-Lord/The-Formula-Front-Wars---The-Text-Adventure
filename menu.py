@@ -26,6 +26,6 @@ type("The Text Adventure will start in 10 seconds...")
 mixer.init()
 mixer.music.load("10SecondCountdown.mp3")                                    #Plays mp3 file
 mixer.music.play(1)
-time.sleep(10.5)
+time.sleep(11)
 clear()
 Main_Game()
