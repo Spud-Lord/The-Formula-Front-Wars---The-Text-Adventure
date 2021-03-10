@@ -282,7 +282,7 @@ def Main_Game():
 
         current_room = fifth_room
         time.sleep(2)
-
+        print("")
         type("I found it! shouted a voice")
         time.sleep(2)
         type("Focus on that memory! replied a woman")
