@@ -145,6 +145,7 @@ def Main_Game():
             dead = True
 
         elif answer2.lower() == "beta":
+            print("")
             type("You remember that the Beta program had the features needed to crack the code of the freezer")
             time.sleep(2)
             type("You wait what feels like an eternity for the program to finish before you quickly unplug the computer, screw up the control panel and leave the supermarket")
@@ -158,6 +159,8 @@ def Main_Game():
         current_room = third_room
 
         type("Yet another memory filled your brain...")
+
+        print("")
 
         current_room.get_details()
 
@@ -218,6 +221,7 @@ def Main_Game():
             type("You raise your hands and get down on the ground...")
             time.sleep(4)
 
+        print("")
         type("'He is attempting to resist!' you hear a voice shout")
         time.sleep(2)
         type("'Find that memory now!' shouted a woman")
@@ -287,6 +291,8 @@ def Main_Game():
         type("You don't think you can survive much longer...")
         time.sleep(2)
 
+        print("")
+
         current_room.get_details()
 
         time.sleep(4)
@@ -335,9 +341,10 @@ def Main_Game():
         type("You keep your eyes welded shut as you wait for the final step to complete")
 
         time.sleep(4)
+        print("")
         type("Your eyes fly open and you scream in pain as the neural implant is removed from your neck")
         time.sleep(2)
-        type("'Thank you!' said a woman's voice")
+        type("'Thank you!' said a woman's voice. The woman was running towards you.")
         time.sleep(2)
         type("You open your eyes to see the woman you saw earlier")
         time.sleep(2)
@@ -357,7 +364,7 @@ def Main_Game():
         time.sleep(2)
         type("'Why was I on this station in the memory?' you ask")
         time.sleep(2)
-        type("'It appears that it was this very station where you became you. As such, we have what we need.' the woman said")
+        type("'It appears that it was this very station where you became you. Therefore, we have what we need.' the woman said")
         time.sleep(2)
         type("'It is time for us to help you.'")
         time.sleep(2)
