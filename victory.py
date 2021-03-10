@@ -5,6 +5,8 @@ import time
 from typing import type, type2
 
 def Victory():
+    mixer.music.load("4xPistolShot.mp3")
+    mixer.music.play()
     type("The woman pulls the device from behind her back and fires it four times")
     time.sleep(2)
     type("Your arms and legs begin to bleed and you yell out in pain")
