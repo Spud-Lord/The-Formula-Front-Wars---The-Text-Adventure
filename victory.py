@@ -3,6 +3,9 @@
 
 import time
 from typing import type, type2
+import os
+os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = "hide"
+from pygame import mixer
 
 def Victory():
     mixer.music.load("4xPistolShot.mp3")
