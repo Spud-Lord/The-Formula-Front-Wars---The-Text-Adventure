@@ -53,7 +53,7 @@ def Main_Game():
         time.sleep(2)
         type("You walk forwards and reach the tall doors where a guard stops you")
         time.sleep(2)
-        type("Welcome! Can I see your ticket please?")
+        type("'Welcome! Can I see your ticket please?'")
         time.sleep(2)
         type("You hand the guard your ticket and you are moved over to a group")
         time.sleep(2)
