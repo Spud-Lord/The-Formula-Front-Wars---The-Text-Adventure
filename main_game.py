@@ -227,7 +227,7 @@ def Main_Game():
         time.sleep(2)
         type("'Find that memory now!' shouted a woman")
         time.sleep(2)
-        type("'Stop resisting! Its the only way to help you!' you hear the woman shout")
+        type("'Stop resisting! It's the only way to help you!' you hear the woman shout")
         time.sleep(2)
         type("You concentrate and let the memories flow...\n")
         mixer.music.load("Battle.Of.The.Heroes.mp3")
