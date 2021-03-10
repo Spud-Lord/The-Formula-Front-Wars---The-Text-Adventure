@@ -205,13 +205,18 @@ def Main_Game():
             print("")
             type("You open the door and run...")
             time.sleep(2)
+            mixer.music.load("Gunfire.mp3")
+            mixer.music.play(1)
             type("You hear gunfire behind you...")
             time.sleep(2)
             type("You turn a corner and are met with a crowd of people")
             time.sleep(2)
+            mixer.music.load("GunsReady.mp3")
+            mixer.music.play(1)
             type("You are then instantly surrounded by security guards...")
             time.sleep(2)
             type("You raise your hands and get down on the ground...")
+            time.sleep(4)
 
         type("'He is attempting to resist!' you hear a voice shout")
         time.sleep(2)
@@ -220,6 +225,8 @@ def Main_Game():
         type("'Stop resisting! Its the only way to help you!' you hear the woman shout")
         time.sleep(2)
         type("You concentrate and let the memories flow...\n")
+        mixer.music.load("Battle.Of.The.Heroes.mp3")
+        mixer.music.play(10)
 
         current_room = forth_room
         time.sleep(2)
