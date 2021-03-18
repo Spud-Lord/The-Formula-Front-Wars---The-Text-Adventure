@@ -6,6 +6,7 @@ def Main_Game():
     from death import Death                                                         #Imports Room, Intro, Death, Victory, type, type2 and Main_Menu Definitions
     from victory import Victory
     from typing import type, type2
+    from clear import clear
     import time
     import os
     import sys
@@ -107,6 +108,7 @@ def Main_Game():
             time.sleep(2)
             type("You climbed onto the wall and prepared to jump...")
             time.sleep(2)
+            clear()
 
         current_room = second_room
 
@@ -156,6 +158,7 @@ def Main_Game():
             type("But it would be the supermarket who will be yelled at")
             time.sleep(2)
             type("After all, everyone will think they turned off the freezer...")
+            clear()
 
         current_room = third_room
 
@@ -221,6 +224,7 @@ def Main_Game():
             time.sleep(2)
             type("You raise your hands and get down on the ground...")
             time.sleep(4)
+            clear()
 
         print("")
         type("'He is attempting to resist!' you hear a voice shout")
@@ -278,6 +282,7 @@ def Main_Game():
         type("You roll over onto your back and see dozens of guns pointing at you")
         time.sleep(2)
         type("You close your eyes...")
+        clear()
 
 
         current_room = fifth_room
@@ -341,6 +346,8 @@ def Main_Game():
         time.sleep(2)
         type("You keep your eyes welded shut as you wait for the final step to complete")
 
+        clear()
+        
         time.sleep(4)
         print("")
         type("Your eyes fly open and you scream in pain as the neural implant is removed from your neck")

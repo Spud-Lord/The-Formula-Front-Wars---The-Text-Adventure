@@ -5,11 +5,7 @@ import time
 import sys
 from os import system, name
 from typing import type, type2
-
-def clear():
-    if name =='nt':
-        _ = system('cls')
-
+from clear import clear
 
 def Intro():                            #Defines all indented code as Intro
     print("")

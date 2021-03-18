@@ -4,13 +4,10 @@ import time
 from main_game import Main_Game
 from os import system, name
 from typing import type
+from clear import clear
 import os
 os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = "hide"
 from pygame import mixer
-
-def clear():
-    if name =='nt':
-        _ = system('cls')
 
 type("Welcome\n")
 time.sleep(2)
