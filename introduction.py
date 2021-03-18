@@ -91,7 +91,7 @@ def Intro():                            #Defines all indented code as Intro
     time.sleep(2)
     type("'I will not give up my memories to a rebellion!' you protest.")
     time.sleep(2)
-    type("'Well this 'rebellion' as you call it simply wants to create more like you so we can win the war against Earth.")
+    type("'Well this 'rebellion' as you call it simply wants to create more like you so we can win the war against Earth.'")
     time.sleep(2)
     type("The machine began to rotate you forward until you were upright. You hear the machine moving behind you and you suddenly feel very scared")
     time.sleep(2)
