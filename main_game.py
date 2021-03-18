@@ -279,6 +279,8 @@ def Main_Game():
         time.sleep(2)
         type("You collapse onto the floor...")
         time.sleep(2)
+        mixer.music.load("GunsReady.mp3")
+        mixer.music.play()
         type("You roll over onto your back and see dozens of guns pointing at you")
         time.sleep(2)
         type("You close your eyes...")
@@ -295,6 +297,7 @@ def Main_Game():
         type("Last memory... you think to yourself...")
         time.sleep(2)
         type("You don't think you can survive much longer...")
+        mixer.music.load("Battle.Of.The.Heroes.mp3")
         time.sleep(2)
 
         print("")
