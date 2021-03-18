@@ -265,7 +265,7 @@ def Main_Game():
         time.sleep(2)
         type("You pay and the staff member goes and fetches some drinks")
         time.sleep(2)
-        type("On the house he says")
+        type("'On the house' he says")
         time.sleep(2)
         type("You thank him and turn to face Eve")
         time.sleep(2)
