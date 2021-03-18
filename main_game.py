@@ -172,7 +172,7 @@ def Main_Game():
         time.sleep(4)
         type("Why on earth do they want this memory?")
         time.sleep(2)
-        type("Sitting at your desk, you placed the AMTel CPU into its socket...")
+        type("Sitting at your boss' desk, you placed the AMTel CPU into its socket...")
         time.sleep(2)
         type("You inserted the RAM...")
         time.sleep(2)
@@ -347,7 +347,7 @@ def Main_Game():
         type("You keep your eyes welded shut as you wait for the final step to complete")
 
         clear()
-        
+
         time.sleep(4)
         print("")
         type("Your eyes fly open and you scream in pain as the neural implant is removed from your neck")
