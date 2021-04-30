@@ -8,7 +8,6 @@ from typing import type, type2
 from clear import clear
 
 def Intro():                            #Defines all indented code as Intro
-    print("")
     type("You feel youself being dragged along the floor")
     time.sleep(2)
     type("You can't see... are you blindfolded? Or just blind?")
