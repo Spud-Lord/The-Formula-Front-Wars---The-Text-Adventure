@@ -8,12 +8,8 @@ from typing import type, type2
 from clear import clear
 
 def Intro():                            #Defines all indented code as Intro
-<<<<<<< Updated upstream
-    type("You feel youself being dragged along the floor")
-=======
     print("")
     type("You feel yourself being dragged along the floor")
->>>>>>> Stashed changes
     time.sleep(2)
     type("You can't see... are you blindfolded? Or just blind?")
     time.sleep(2)
