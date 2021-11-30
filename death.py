@@ -43,6 +43,6 @@ def Death():                                        #Defines all indented code a
     time.sleep(2)
     type2("You")
     time.sleep(2)
-    type2("feel")
+    type2("Feel")
     time.sleep(2)
-    type2("nothing...\n")
+    type2("Nothing...\n")
