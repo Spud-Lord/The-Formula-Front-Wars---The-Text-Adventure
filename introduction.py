@@ -34,6 +34,7 @@ def Intro():                            #Defines all indented code as Intro
     time.sleep(2)
     type("'What is your name?' the woman asked\n")
     name = input(">> ")                 #Takes an input from the user
+    print("")
     type("'My name is "+name+"' you say\n")       #Prints the speech with the users name that they just inputted
     time.sleep(2)
     type("'Welcome to the Artemis "+name+". A science research station orbiting Jupiter.'\n")
