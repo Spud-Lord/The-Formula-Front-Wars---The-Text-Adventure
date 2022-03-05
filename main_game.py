@@ -392,6 +392,4 @@ def Main_Game():
         mixer.music.stop()
         type("Thank you for playing!\n")
         time.sleep(2)
-        type("Remember to read the epic novel online now!\n")
-        time.sleep(2)
         exit()
