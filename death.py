@@ -27,7 +27,7 @@ def Death():                                        #Defines all indented code a
     time.sleep(2)
     type("You collapse onto the cold solid floor beneath you and pant heavily\n")
     time.sleep(2)
-    type("'You resisted. You changed the memory.' said a woman above you. You try to look up at the woman\n")
+    type("'You resisted. You changed the memory.' said a woman above you. You try to look up at the armoured woman\n")
     time.sleep(2)
     type("'I am sorry. But unless you follow our orders, you can not live.' you can just make out a gun pointing at your head\n")
     time.sleep(2)
