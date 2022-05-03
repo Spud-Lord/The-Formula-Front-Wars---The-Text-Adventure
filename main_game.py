@@ -2,7 +2,7 @@
 
 def Main_Game():
     from room import Room
-    from introduction import Intro
+    from introductionv2 import Intro
     from death import Death                                                         #Imports Room, Intro, Death, Victory, type, type2 and Main_Menu Definitions
     from victory import Victory
     from typing import type, type2
