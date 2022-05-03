@@ -19,7 +19,7 @@ def Main_Game():
     first_room.set_description("You recognise the old castle as the place you lost your friend. She fell from the tallest tower. The castle has remained closed ever since.\n")
 
     second_room = Room("The frozen isle of a Supermarket\n")
-    second_room.set_description("It has been nearly twenty years since you were here. Last time you were here, you messed with the temperature controls and caused all the products to defrost. You were banned from entering. But why do they want to know about this?\n")
+    second_room.set_description("It has been nearly twenty years since you were here. Last time you were here, you messed with the temperature controls and caused all the products to defrost. You were banned from entering any of their stores again. But why do they want to know about this?\n")
     #This set defines each of the different rooms used in the game
     third_room = Room("A large office\n")
     third_room.set_description("You recognise this office as the office of your boss. Admiral Cora Jean of the World Space Command...\n")
@@ -48,8 +48,6 @@ def Main_Game():
 
         time.sleep(4)
 
-        print("")
-
         type("You can't figure out why the people want to see this memory but you proceed\n")
         time.sleep(2)
         type("You walk forwards and reach the tall doors where a staff member stops you\n")
@@ -68,7 +66,7 @@ def Main_Game():
         time.sleep(2)
         type("Will you take the left stairs or the right stairs?\n")
         time.sleep(2)
-        type("Type Right or Left depending on which way you want to go\n")
+        type("Type Right or Left depending on which way you want to go")
         time.sleep(2)
         answer1 = input("\n")
         if answer1.lower() == "left":
@@ -135,7 +133,7 @@ def Main_Game():
         time.sleep(2)
         type("Or you could choose the Beta program which won't have all the features but will definitely worse...\n")
         time.sleep(2)
-        type("Type Alpha or Beta depending on which program you want to run\n")
+        type("Type Alpha or Beta depending on which program you want to run")
         answer2 = input("\n")
         if answer2.lower() == "beta":
             type("\n")
@@ -197,8 +195,7 @@ def Main_Game():
         time.sleep(2)
         type("Do you hide or run??\n")
         time.sleep(2)
-        type("Type Hide or Run depending on what you want to do...\n")
-        print("")
+        type("Type Hide or Run depending on what you want to do...")
         answer3 = input("\n")
         if answer3.lower() == "hide":
             type("\n")
@@ -235,7 +232,7 @@ def Main_Game():
         time.sleep(2)
         type("'Find that memory now!' shouted a woman\n")
         time.sleep(2)
-        type("'Stop resisting! It's the only way to help you!' you hear the woman shout\n")
+        type("'Stop resisting! You'll die if you don't let us in!' you hear the woman shout\n")
         time.sleep(2)
         type("You concentrate and let the memories flow...\n")
         mixer.music.load("Battle.Of.The.Heroes.mp3")
@@ -243,7 +240,9 @@ def Main_Game():
 
         current_room = forth_room
         time.sleep(2)
-
+        
+        clear()
+        
         type("You prayed this was the last memory...\n")
 
         current_room.get_details()
@@ -298,13 +297,13 @@ def Main_Game():
         time.sleep(2)
         type("Focus on that memory! replied a woman\n")
         time.sleep(2)
-        type("'Last memory...'' you think to yourself...\n")
+        type("'Last memory...' you think to yourself...\n")
         time.sleep(2)
         type("You don't think you can survive much longer...\n")
         mixer.music.load("Battle.Of.The.Heroes.mp3")
         time.sleep(2)
 
-        print("")
+        clear()
 
         current_room.get_details()
 
@@ -359,31 +358,26 @@ def Main_Game():
         print("")
         type("Your eyes fly open and you scream in pain as the neural implant is removed from your neck\n")
         time.sleep(2)
-        type("'Thank you!' said a woman's voice. The woman was running towards you.\n")
+        type("'Did we get everything?' said a woman's voice\n")
         time.sleep(2)
-        type("You open your eyes to see the woman you saw earlier\n")
+        type("'Yes!' shouted another voice")
         time.sleep(2)
-        type("'Emily!' you shout. You try to lunge at her\n")
+        type("You open your eyes to see the armoured woman standing in front of you.")
         time.sleep(2)
-        type("Still equipped into the machine though, you can't move and you try to catch your breath\n")
+        type("She removed her helmet and her dark hair was revealed")
         time.sleep(2)
-        type("'A deal is a deal. Reverse the effects and cleanse me.' you say\n")
+        type("You try to lunge at the woman. 'Emily!' you shout")
         time.sleep(2)
-        type("The woman nods and goes to get something. You wait for her to return\n")
+        type("Emily smiled at you")
         time.sleep(2)
-        type("When she does return, she has something behind her back\n")
+        type("'I know it has been a while.' she spoke calmly. 'As you know, you're augmentations were far superior to mine. Now we have the memory, we have what we need to refine your design and create soldiers like you. But better.'")
         time.sleep(2)
-        type("'We have identified the scientists who experimented on you through their voices.' she said\n")
+        type("'So what happens now?' you ask. 'Going to throw me in a cell somewhere?'")
         time.sleep(2)
-        type("'We would like to thank you for your cooperation.' she smiled\n")
+        type("Emily smiled again")
         time.sleep(2)
-        type("'Why was I on this station in the memory?' you ask\n")
+        type("'No.' she whispers")
         time.sleep(2)
-        type("'It appears that it was at this very station where you became you. Therefore, we have what we need.' the woman said\n")
-        time.sleep(2)
-        type("'It is time for us to help you.'\n")
-        time.sleep(2)
-        type("You await for something to happen...\n")
         Victory()
         dead = True
 
