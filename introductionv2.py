@@ -30,7 +30,7 @@ def Intro():                            #Defines all indented code as Intro
     time.sleep(2)
     type("You look up and try to make out her face but she was wearing a dark helmet\n")
     time.sleep(2)
-    type("You look down at her body and realise that she was wearing a full suit of armour\n")
+    type("You look down at her body and realise that she was wearing a full suit of armour with a pistol attached to it\n")
     time.sleep(2)
     type("'What is your name?' asked the woman\n")
     name = input(">> ")
