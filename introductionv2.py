@@ -24,7 +24,7 @@ def Intro():                            #Defines all indented code as Intro
     time.sleep(2)
     type("You spot oxygen regulators in the corners of the room\n")
     time.sleep(2)
-    type("Realising you're in space, you start to look aournd to try and recognise where you are\n")
+    type("Realising you're in space, you start to look around to try and recognise where you are\n")
     time.sleep(2)
     type("Before you can however, a woman walks in front of you\n")
     time.sleep(2)
