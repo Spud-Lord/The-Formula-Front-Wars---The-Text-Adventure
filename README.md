@@ -1,7 +1,6 @@
 Introducing the Text Adventure Game that takes place before the epic new book:
 
-The Formula Front War - Part of the World Space Command Saga
-which can be read as it is released here:
+<b>The Formula Front War - Part of the World Space Command Saga</b>
 
 There are two versions of the latest V0.5.1 Beta:
 Windows Version (Called V0.5.1)
