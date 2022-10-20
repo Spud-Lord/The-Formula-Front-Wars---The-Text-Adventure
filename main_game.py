@@ -4,7 +4,7 @@ def Main_Game():
     from room import Room
     from introductionv2 import Intro
     from death import Death                                                         #Imports Room, Intro, Death, Victory, type, type2 and Main_Menu Definitions
-    from victory import Victory
+    from victoryv2 import Victory
     from typing import type, type2
     from clear import clear
     import time
@@ -240,9 +240,9 @@ def Main_Game():
 
         current_room = forth_room
         time.sleep(2)
-        
+
         clear()
-        
+
         type("You prayed this was the last memory...\n")
 
         current_room.get_details()
