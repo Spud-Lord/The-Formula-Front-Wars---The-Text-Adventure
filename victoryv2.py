@@ -45,7 +45,6 @@ def Victory():
     time.sleep(2)
     type("You close your eyes as the pain begins to subside...\n")
     time.sleep(2)
-    type("Eventually...\n")
     type2("You...\n")
     type2("Felt...\n")
     type2("Nothing...\n")
