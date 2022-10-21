@@ -131,7 +131,7 @@ def Main_Game():
         time.sleep(2)
         type("You remove the drive and attach it to the chain on your neck\n")
         time.sleep(2)
-        type("You turn the desk computer off and begin to walk to the door")
+        type("You turn the desk computer off and begin to walk to the door\n")
         time.sleep(2)
         type("Just as you are about to leave however, you hear footsteps and the Admiral's voice coming closer...\n")
         time.sleep(2)
