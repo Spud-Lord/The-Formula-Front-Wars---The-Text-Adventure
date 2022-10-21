@@ -105,6 +105,8 @@ def Intro():                            #Defines all indented code as Intro
     time.sleep(2)
     type("You breathe heavily and close your eyes\n")
     time.sleep(2)
+    type("'You will have to repeat your memories in the exact same way to build up the connection while we search for what we want.' the woman said\n")
+    time.sleep(2)
     type("You don't know what is about to happen.")
     time.sleep(2)
     type("You hear screams, shouting, crying, laughing...\n")
