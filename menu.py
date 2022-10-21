@@ -11,7 +11,7 @@ from pygame import mixer
 
 type("Welcome\n")
 time.sleep(2)
-type("Please note: This is still in Beta and may never have a full 1.0 release\n")
+type("Please note: This is still in Beta\n")
 time.sleep(2)
 type("If you spot any bugs other than those mentioned in the Release Notes, please let me know")
 time.sleep(2)
