@@ -17,7 +17,7 @@ type("If you spot any bugs other than those mentioned in the Release Notes, plea
 time.sleep(2)
 type("All releases and the Source Code can be found on GitHub using the link: https://github.com/Spud-Lord/The-Formula-Front-Wars---The-Text-Adventure")
 time.sleep(2)
-type("DISCLAIMER: This game is not appropriate for children under 12")
+type("DISCLAIMER: This game is not really appropriate for children under 12. It is entirely your discretion to play this game")
 time.sleep(2)
 type("The Text Adventure will start in 10 seconds...")
 mixer.init()
