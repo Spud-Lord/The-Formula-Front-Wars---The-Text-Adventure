@@ -14,7 +14,7 @@ def Victory():
     time.sleep(2)
     type("Your arms and legs begin to bleed and you yell out in pain\n")
     time.sleep(2)
-    type("'You'll recognise this method. After all, you taught me it.' she says")
+    type("'You'll recognise this method of execution. After all, you taught me it.' she says")
     time.sleep(2)
     type("Emily turns and starts to walk away. 'Find the Aorus and destroy it. His crew will come after him sooner or later.' she commanded")
     time.sleep(2)
