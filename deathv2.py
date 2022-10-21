@@ -34,4 +34,3 @@ def Death():                                        #Defines all indented code a
     mixer.music.play()
     time.sleep(2)
     type("You don't even feel the shot before your vision ceases and your mind goes silent...\n")
-    dead = True
