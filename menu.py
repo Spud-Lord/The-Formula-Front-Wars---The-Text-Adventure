@@ -1,7 +1,7 @@
 #Jake Eaton
 
 import time
-from main_game import Main_Game
+from main_gamev2 import Main_Game
 from os import system, name
 from typing import type
 from clear import clear
