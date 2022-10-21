@@ -85,7 +85,7 @@ def Intro():                            #Defines all indented code as Intro
     time.sleep(2)
     type("'I wouldn't do that if I were you!' called a voice. 'That is warship grade titanium alloy. You won't be able to break it.'\n")
     time.sleep(2)
-    type("'You will not get anything from me! I'll die before I tell you anything! The Formula Front will lose!' you cry out\n")
+    type("'You will not get anything from me! I'll die before I tell you anything!' you cry out\n")
     time.sleep(2)
     type("The woman laughs\n")
     time.sleep(2)
