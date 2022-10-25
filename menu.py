@@ -10,8 +10,6 @@ from pygame import mixer
 
 type("Welcome!\n")      #Uses imported type object to print the letters individually
 time.sleep(2)           #Pauses code for 2 seconds
-type("Please note: This is still in Beta\n")
-time.sleep(2)
 type("All future versions can be found using the link: https://github.com/Spud-Lord/The-Formula-Front-Wars---The-Text-Adventure\n")
 time.sleep(2)
 type("DISCLAIMER: Some of the scenes in this game are not appropriate for children under 12. It is entirely your discretion to play this game\n")
