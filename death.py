@@ -1,48 +1,39 @@
 #Jake Eaton
-#Death
 
 import time
 import os
-import sys                                          #Imports time, OS, Sys and Pygame Modules
-os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = "hide"   #Hides the Welcome to Pygame Message
+import sys
+os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = "hide"
 from pygame import mixer
-from typing import type, type2
+from typing import type
 
-def Death():                                        #Defines all indented code as Death
+def Death():
     mixer.init()
-    mixer.music.load("imperial_alert.mp3")          #Loads and plays the mp3 file
+    mixer.music.load("imperial_alert.mp3")
     mixer.music.play(1)
-
-    type("'Critical Failure!' you hear a voice shout\n")
+    
+    type("'The memory has collapsed!' you hear a voice shout\n")
     time.sleep(2)
-    type("Your mind suddenly starts to flash with memories and your body aches in pain\n")
+    type("Your body begins to shake violently as you resist the implant\n")
     time.sleep(2)
-    type("'Memory Overload! The implant is being resisted!'\n")
+    type("'Release him!' a woman shouts\n")
     time.sleep(2)
-    type("'Release the implant!' a woman shouts\n")
+    type("You scream in pain as the neural implant is ripped from your neck\n")
     time.sleep(2)
-    type("You shout in pain as the neural implant is removed from the back of your neck\n")
+    type("You can feel your blood flowing down your neck and your vision returns\n")
     time.sleep(2)
-    type("You feel your blood flowing down your neck as you are set free\n")
+    type("'You resisted! You changed the memory!' shouted a woman in front of you. You look up slightly and just make out the armoured woman you saw earlier\n")
     time.sleep(2)
-    type("You collapse onto the cold solid floor beneath you and pant heavily\n")
+    type("She walked up to you, grabbed her pistol and rested it on your chin, pointing it up your head...\n")
     time.sleep(2)
-    type("'You resisted. You changed the memory.' said a woman above you. You try to look up at the armoured woman\n")
+    type("'We can't have that. Are you going to give me what I want? Or am I going to have to take your blood?' she says\n")
+    time.sleep(2)        
+    type("'I will never help you...' you whisper. You don't have the energy to say much more\n")
+    time.sleep(2)        
+    type("'Then let me put you out of you misery. I have waited a long time to do this...' she whispered in your ear\n")
     time.sleep(2)
-    type("'I am sorry. But unless you follow our orders, you can not live.' you can just make out a gun pointing at your head\n")
-    time.sleep(2)
-    type("You hold up your hand, shaking\n")
-    time.sleep(2)
-    type("'Wait a minute!' you say weakly. But it didn't stop the inevitable...\n")
+    type("'Wait a second...' you say weakly\n")
     mixer.music.load("PistolShot.mp3")
     mixer.music.play()
     time.sleep(2)
-    type("You don't even feel the shot...\n")
-    time.sleep(2)
-    type("You don't even feel yourself hit the ground...\n")
-    time.sleep(2)
-    type2("You")
-    time.sleep(2)
-    type2("Feel")
-    time.sleep(2)
-    type2("Nothing...\n")
+    type("You don't even feel the shot before your vision ceases and your mind goes silent...\n")
