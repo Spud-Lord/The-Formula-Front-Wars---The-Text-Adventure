@@ -13,7 +13,7 @@ def Main_Game():
     os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = "hide"
     from pygame import mixer
     
-    #Intro()
+    Intro()
     
     first_room = Room("The ruins of an ancient castle\n")
     first_room.set_description("You remember this place as the place you lost your closest friend. The crime was never solved\n")
