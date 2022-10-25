@@ -96,7 +96,7 @@ def Intro():
     time.sleep(2)
     type("As the drill stopped spinning, the pain subsided, but blood continued to fall\n")
     time.sleep(2)        
-    type("You will have to repeat some of your memories in the exact same way that they happened to build up the connection while we search for what we want.' the woman said\n")
+    type("The neural implant will give us access to your mind. You will have to repeat some of your memories in the exact same way that they happened to build up the connection while we search for what we want.' the woman said\n")
     time.sleep(2)        
     type("Repeat your memories? What does this machine do?\n")
     time.sleep(2)        
