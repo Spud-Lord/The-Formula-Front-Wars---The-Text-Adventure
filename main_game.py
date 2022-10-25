@@ -13,7 +13,7 @@ def Main_Game():
     os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = "hide"
     from pygame import mixer
     
-    Intro()
+    #Intro()
     
     first_room = Room("The ruins of an ancient castle\n")
     first_room.set_description("You remember this place as the place you lost your closest friend. The crime was never solved\n")
@@ -97,7 +97,7 @@ def Main_Game():
         time.sleep(2)
         type("You couldn't look as she hit the sharp rocks...\n")
         time.sleep(2)
-        type("You turned to confront the perosn who did it but they had already run off\n")
+        type("You turned to confront the person who did it but they had already run off\n")
         time.sleep(2)
         type("You felt lost...\n")
         time.sleep(2)
@@ -173,13 +173,13 @@ def Main_Game():
         time.sleep(2)
         type("You are quickly surrounded by more guards\n")
         time.sleep(2)
-        mixer.music.load("GunsReady2.mp3")
+        mixer.music.load("GunsReady3.mp3")
         mixer.music.play(1)
         type("They raise their guns and you raise your hands\n")
         time.sleep(2)
         type("You are pushed onto the floor and become face to face with the Admiral...\n")
         time.sleep(4)
-        clear()
+        #clear()
         
     print("")
     type("'We are almost there! The connection is stable. We need to strengthen it somehow.' you hear a voice shout\n")
