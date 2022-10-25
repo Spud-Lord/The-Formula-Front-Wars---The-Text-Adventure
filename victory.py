@@ -2,14 +2,14 @@
 
 import time
 from typing import type
-import os
-os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = "hide"
+import os       #Imports time, os and pygame modules as well as the code objects from external scripts
+os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = "hide"       #Used to hide the PyGame welcome message
 from pygame import mixer
 
-def Victory():
+def Victory():         #Defines the code below as the Death object
     print("")
-    type("Your eyes fly open and you scream in pain as the neural implant is removed from your neck\n")
-    time.sleep(2)
+    type("Your eyes fly open and you scream in pain as the neural implant is removed from your neck\n")      #Uses imported type object to print the letters individually
+    time.sleep(2)           #Pauses code for 2 seconds
     type("'Did we get everything?' said a woman's voice\n")
     time.sleep(2)
     type("'Yes!' replied another voice\n")
@@ -32,8 +32,8 @@ def Victory():
     time.sleep(2)
     type("Moving like lightning, Emily grabbed her pistol and shot it four times\n")
     time.sleep(2)
-    mixer.music.load("4xPistolShot.mp3")
-    mixer.music.play()
+    mixer.music.load("4xPistolShot.mp3")      #Loads new audio file
+    mixer.music.play()      #Plays audio once
     time.sleep(2)
     type("Your arms and legs begin to bleed as you yell out in pain\n")
     time.sleep(2)
