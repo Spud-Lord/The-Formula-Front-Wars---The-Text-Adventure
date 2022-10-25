@@ -21,7 +21,7 @@ def Main_Game():
     second_room = Room("A large office\n")
     second_room.set_description("You remember this office as the office of Admiral Cora Jean of the World Space Command. Nothing went well for you that day\n")
     
-    third_room = Room("A riverside resturant\n")
+    third_room = Room("A riverside restaurant\n")
     third_room.set_description("One of the darkest days of your life. Your friend and colleague betrayed you...\n")
     
     forth_room = Room("The Artemis\n")
@@ -219,7 +219,7 @@ def Main_Game():
     time.sleep(2)
     type("But you intend to do something about it in the present\n")
     time.sleep(2)
-    type("One of the resturant staff came up to you with two glasses filled with drink\n")
+    type("One of the restaurant staff came up to you with two glasses filled with drink\n")
     time.sleep(2)
     type("'On the house.' he says\n")
     time.sleep(2)
