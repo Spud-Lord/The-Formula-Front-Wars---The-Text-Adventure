@@ -2,9 +2,9 @@ Introducing the Text Adventure Game that takes place before the epic new book:
 
 <b>The Formula Front War - Part of the World Space Command Saga</b>
 
-There are two versions of the latest V0.5.1 Beta:
-Windows Version (Called V0.5.1)
-Mac Version (Called MV0.5.1)
+There are two versions available to download:
+Windows
+Mac
 
 The different versions are available in the release section
 
