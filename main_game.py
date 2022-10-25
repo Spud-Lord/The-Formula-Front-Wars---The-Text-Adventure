@@ -1,41 +1,40 @@
 #Jake Eaton
 
-def Main_Game():
+def Main_Game():        #Defines the code below as the Main_Game object
     from room import Room
-    from introduction import Intro
+    from introduction import Intro      #Imports code objects from other scripts
     from death import Death
     from victory import Victory
     from typing import type
     from clear import clear
     import time
-    import os
-    import sys
-    os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = "hide"
-    from pygame import mixer
+    import os       #Imports time, os and pygame modules
+    os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = "hide"       #Used to hide the PyGame welcome message
+    from pygame import mixer        #Specifies that only mixer will be imported from pygame
     
-    Intro()
+    Intro()     #Runs Intro object from other script
     
     first_room = Room("The ruins of an ancient castle\n")
     first_room.set_description("You remember this place as the place you lost your closest friend. The crime was never solved\n")
     
     second_room = Room("A large office\n")
     second_room.set_description("You remember this office as the office of Admiral Cora Jean of the World Space Command. Nothing went well for you that day\n")
-    
+    #This code uses the Room object to define four different rooms and assign them a name and description to be called later
     third_room = Room("A riverside restaurant\n")
     third_room.set_description("One of the darkest days of your life. Your friend and colleague betrayed you...\n")
     
     forth_room = Room("The Artemis\n")
     forth_room.set_description("You don't remember this... or rather... you don't want to remember this...\n")
     
-    mixer.init()
-    mixer.music.load("Battle.Of.The.Heroes.mp3")
-    mixer.music.play(10)
+    mixer.init()        #Intialises mixer from PyGame
+    mixer.music.load("Battle.Of.The.Heroes.mp3")        #Loads music file
+    mixer.music.play(10)        #Plays the music file 10 times
     
-    current_room = first_room
+    current_room = first_room       #Sets the current room to be the first room defined above
     
-    type("You find yourself focusing on a memory...\n")
+    type("You find yourself focusing on a memory...\n")     #Uses imported type object to print the letters individually
     
-    time.sleep(2)
+    time.sleep(2)       #Pauses code for 2 seconds
     
     current_room.get_details()
     
@@ -59,7 +58,7 @@ def Main_Game():
     time.sleep(2)
     type("Type Right or Left depending on which way you want to go")
     time.sleep(2)
-    answer1 = input("\n")
+    answer1 = input("\n")       #Used to take user input on a new line
     if answer1.lower() == "left":
         print("")
         type("The memory corrupts...\n")
@@ -68,14 +67,14 @@ def Main_Game():
         time.sleep(2)
         type("Your brain and neck ache in pain...\n")
         time.sleep(2)
-        clear()
-        Death()
+        clear()     #Clears terminal using imported clear object
+        Death()     #Runs Death object from other script
         time.sleep(3)
-        mixer.music.stop()
+        mixer.music.stop()      #Stops music playing
         clear()
         type("Thank you for playing!\n")
         time.sleep(2)
-        exit()
+        exit()      #Exits game using imported exit object
         
     elif answer1.lower() == "right":
         print("")
@@ -179,7 +178,7 @@ def Main_Game():
         time.sleep(2)
         type("You are pushed onto the floor and become face to face with the Admiral...\n")
         time.sleep(4)
-        #clear()
+        clear()
         
     print("")
     type("'We are almost there! The connection is stable. We need to strengthen it somehow.' you hear a voice shout\n")
@@ -327,7 +326,7 @@ def Main_Game():
     
     clear()
     
-    Victory()
+    Victory()       #Runs Victory object from other script
     clear()
     type("Thank you for playing!\n")
     time.sleep(2)

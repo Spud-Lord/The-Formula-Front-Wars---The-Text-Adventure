@@ -1,19 +1,18 @@
 #Jake Eaton
 
 import time
-import os
-import sys
-os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = "hide"
+import os       #Imports time, os and pygame modules as well as the code objects from external scripts
+os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = "hide"       #Used to hide the PyGame welcome message
 from pygame import mixer
 from typing import type
 
-def Death():
-    mixer.init()
-    mixer.music.load("imperial_alert.mp3")
-    mixer.music.play(1)
+def Death():         #Defines the code below as the Death object
+    mixer.init()        #Initialises PyGame Mixer
+    mixer.music.load("imperial_alert.mp3")      #Loads audio file
+    mixer.music.play(1)     #Plays audio once
     
-    type("'The memory has collapsed!' you hear a voice shout\n")
-    time.sleep(2)
+    type("'The memory has collapsed!' you hear a voice shout\n")      #Uses imported type object to print the letters individually
+    time.sleep(2)           #Pauses code for 2 seconds
     type("Your body begins to shake violently as you resist the implant\n")
     time.sleep(2)
     type("'Release him!' a woman shouts\n")
@@ -33,7 +32,7 @@ def Death():
     type("'Then let me put you out of you misery. I have waited a long time to do this...' she whispered in your ear\n")
     time.sleep(2)
     type("'Wait a second...' you say weakly\n")
-    mixer.music.load("PistolShot.mp3")
-    mixer.music.play()
+    mixer.music.load("PistolShot.mp3")      #Loads new audio file
+    mixer.music.play()      #Plays audio once
     time.sleep(2)
     type("You don't even feel the shot before your vision ceases and your mind goes silent...\n")

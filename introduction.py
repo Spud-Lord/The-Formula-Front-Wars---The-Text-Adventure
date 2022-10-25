@@ -1,12 +1,12 @@
 #Jake Eaton
 
 import time
-from typing import type
+from typing import type     #Imports time module as well as the code objects from external scripts
 from clear import clear
 
-def Intro():
-    type("As you start to wake up, you hear shouting and movement all around you\n")
-    time.sleep(2)
+def Intro():         #Defines the code below as the Intro object
+    type("As you start to wake up, you hear shouting and movement all around you\n")      #Uses imported type object to print the letters individually
+    time.sleep(2)           #Pauses code for 2 seconds
     type("You open your eyes and see a blurry haze of lights\n")
     time.sleep(2)
     type("You feel a pain in your head as your eyes start to focus\n")
@@ -30,7 +30,7 @@ def Intro():
     type("As you look down, you notice a pistol magnetically attached to their waist\n")
     time.sleep(2)
     type("'What is your name?' the woman asked\n")
-    name = input(">> ")
+    name = input(">> ")     #Used to take user input
     print("")
     type("'My name is "+name+"' you say\n")
     time.sleep(2)
@@ -110,4 +110,4 @@ def Intro():
     time.sleep(2)        
     type("You go silent...\n")
     time.sleep(3) 
-    clear()       
+    clear()     #Clears terminal using imported clear object      
