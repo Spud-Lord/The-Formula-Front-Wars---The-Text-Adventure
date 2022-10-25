@@ -196,10 +196,13 @@ def Main_Game():
     clear()
     
     current_room = third_room
+        
+    print("")
     
     current_room.get_details()
     time.sleep(4)
-    
+
+    print("")
     type("No...\n")
     time.sleep(2)
     type("It can't be...\n")
@@ -277,8 +280,11 @@ def Main_Game():
     
     current_room = forth_room
     
+    print("")
+    
     current_room.get_details()
     
+    print("")
     time.sleep(4)
     type("Breathing calmly, you wait to see what happens next\n")
     time.sleep(2)
