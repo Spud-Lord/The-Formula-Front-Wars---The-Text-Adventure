@@ -1,4 +1,4 @@
-Introducing the Text Adventure Game that takes place before the epic new book:
+Introducing the Text Adventure Game that takes place before the in-development book:
 
 <b>The Formula Front War - Part of the World Space Command Saga</b>
 
